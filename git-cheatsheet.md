@@ -78,7 +78,8 @@ git rebase --continue
 #
 # interactive rebase starts an editor with one line per commit:
 # Just drop the unwanted commits by deleting the corresponding lines.
-git rebase  -i
+git checkout feature/some-fix
+git rebase -i master
 ```
 
 During interactive rebase you can:
